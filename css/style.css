@@ -1,31 +1,52 @@
-/* styles.css */
 
 body {
      font-family: Arial, sans-serif;
    }
    
    table {
-     border-collapse: collapse;
+     border-collapse: separate;
      margin: 20px 0;
+     border-radius: 25px;
    }
-   
    table, th, td {
-     border: 2px solid black;
-     padding: 8px;
+     border: 5px solid black;
+     padding: 10px;
      text-align: center;
      background-color: pink;
+     border-radius: 15px;
+
    }
-   
    button {
      padding: 10px 20px;
-     font-size: 16px;
+     font-size: 15px;
      cursor: pointer;
      background-color: pink;
      border: 5px solid black;
      border-radius: 20px;
    }
+   button:hover{
+    background-color: black;
+    color: pink;
+    font-weight: bold;
+   }
    
    #rivienLukumaara {
      font-size: 16px;
+   }
+   p{
+    color: black;
+    font-size: large;
+    text-align: center;
+    background-color: pink;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 25px;
+   }
+   h1{
+    background-color: pink;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 25px;
+    text-align: center;
    }
    

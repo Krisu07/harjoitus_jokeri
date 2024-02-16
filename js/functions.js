@@ -13,7 +13,6 @@ function lisaaUusiRivi() {
   arvottujenRivienMaara++;
   rivienLukumaaraP.innerText = `Arvottuja rivejä: ${arvottujenRivienMaara}`;
 
-  // Luo uusi rivi
   const uusiRivi = jokeriTaulukko.insertRow();
 
   for (let i = 0; i < 7; i++) {
